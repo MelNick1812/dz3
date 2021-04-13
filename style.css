@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+}
+.wrapper {
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper p {
+  text-align: left;
+  margin: 5%;
+  color: rgb(47, 58, 121);
+  font-size: 12pt;
+}
+
+.wrapper .hmi {
+  text-align: left;
+  margin: 5%;
+  color: rgb(47, 58, 121);
+}
+
+img {
+  width: 80%;
+}
+
+.meposition {
+  width: 100%;
+  height: 480px;
+  background-color: rgb(126, 200, 200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meposition h2 {
+  background-color: rgb(126, 200, 200);
+  width: 75%;
+}
+
+.telme {
+  font-size: 200%;
+}
+
+.telme a {
+  color: brown;
+}
+
+.nav {
+  overflow: hidden;
+  margin: 25px;
+}
+
+.nav li {
+  float: left;
+  margin-right: 2%;
+  list-style-type: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav li a:hover {
+  color: white;
+}
+
+.floatimg {
+  width: 60%;
+  margin: 5%;
+  float: right;
+}
+
+.blockimg {
+  box-sizing: border-box;
+  /* width = контент + border + padding */
+  margin: 0;
+  width: 350px;
+  height: 350px;
+
+  border: 7px solid rgb(41, 102, 143);
+  /* border-radius: 15px 0 0 0; */
+  border-radius: 50%;
+  padding: 23px;
+  transition: all 0.5s;
+}
+
+.blockimg:hover {
+  border-radius: 0;
+}
+
+.ulimg li {
+  list-style-image: url("../img/right-arrow-439-1161082.png");
+  outline: 1px solid red;
+  text-align: left;
+  list-style-position: inside;
+}
+
+li {
+  text-align: right;
+}
+
+.blockposition {
+  width: 650px;
+  margin: auto;
+  background-color: #ccc;
+  /* overflow: hidden; */
+  text-align: left;
+}
+
+.blockposition nav {
+  width: 100%;
+  height: 75px;
+  background-image: url("../img/redHeader.png");
+  position: relative;
+}
+
+.blockposition p:first-child {
+  margin-top: 15px;
+}
+
+.blockposition p:last-child {
+  padding-bottom: 45px;
+  /* margin-top: 45px; */
+}
+
+#imgnew {
+  width: 104px;
+  /* position: fixed; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* bottom: 0;
+  right: 0;
+  transform: rotate(180deg); */
+}
+
+#navbtnimg {
+  position: absolute;
+  top: -14px;
+  left: 280px;
+  width: 87px;
+  height: 28px;
+  z-index: 15;
+}
+
+#imgoper {
+  width: 22px;
+  height: 180px;
+  position: fixed;
+  top: 250px;
+  left: 0;
+}
+
+#navbirdimg {
+  width: 106px;
+  height: 90px;
+  position: absolute;
+  top: -38px;
+  left: 40%;
+  z-index: 14;
+}
